@@ -3,7 +3,7 @@
     "short_name" : "TEG App",
     "start_url": "./docs/templates/start-screen1.html",
     "scope" : "./",
-    "background_color": "#ffee00",
+    "background_color": "#702C91",
     "display": "standalone",
 
     "icons" : [
