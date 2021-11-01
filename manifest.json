@@ -1,0 +1,22 @@
+{
+    "name": "TEG Web App",
+    "short_name" : "TEG App",
+    "start_url": "./docs/templates/start-screen1.html",
+    "scope" : "./",
+    "background_color": "#ffee00",
+    "display": "standalone",
+
+    "icons" : [
+    {
+    "src":"Hsm-icon-192x192.png",
+        "sizes": "192x192",
+    "type":"image/png"
+    },
+          {
+            "src": "Icon_Bird_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+
+    ]
+}

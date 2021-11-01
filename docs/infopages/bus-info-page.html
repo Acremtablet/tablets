@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Metro, a sleek, intuitive, and powerful framework for faster and easier web development for Windows Metro Style.">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, metro, front-end, frontend, web development">
+    <meta name="author" content="Sergey Pimenov and Metro UI CSS contributors">
+
+    <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title> TEG - BE HAPPY!</title>
+
+    <link href="../css/metro.css" rel="stylesheet">
+    <link href="../css/metro-icons.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <!--<link href="../css/metro-responsive.css" rel="stylesheet">-->
+
+    <script src="../js/jquery-2.1.3.min.js"></script>
+    <script src="../js/metro.js"></script>
+
+    <style>
+        .tile-area-controls {
+            position: fixed;
+            right: 40px;
+            top: 40px;
+        }
+
+        .tile-group {
+            left: 100px;
+        }
+
+        .tile, .tile-small, .tile-sqaure, .tile-wide, .tile-large, .tile-big, .tile-super {
+            opacity: 0;
+            -webkit-transform: scale(.8);
+            transform: scale(.8);
+        }
+
+        #charmSettings .button {
+            margin: 5px;
+        }
+
+        .schemeButtons {
+            /*width: 300px;*/
+        }
+
+        @media screen and (max-width: 640px) {
+            .tile-area {
+                overflow-y: scroll;
+            }
+            .tile-area-controls {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            .tile-area {
+                overflow-y: scroll;
+            }
+
+            .tile-area-controls {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div class="tile-group six scroll-link" id="infopoint" style="margin:60px;padding-bottom:200px">
+<div class="col-md-12">
+    <div class="container fg-white">
+        <h1>ORARI I LINJAVE URBANE</h1>
+        <p><u>LINJA NR. 2 “TEG – SAUK I VJETËR – KOPSHTI ZOOLOGJIK – ISH STACIONI I TRENIT” </u></p>
+         <p>Oraret e linjës:<br> E hënë  -e premte: çdo 7 – 10 minuta  <br>
+             E shtunë – e diel:   çdo 5 – 7 minuta</p>
+        <p></p>
+        <p><u>LINJA NR. 8  “ISH STACIONI I TRENIT – QENDËR – SAUK I RI/ SAUK I VJETËR – TEG” </u></p>
+        <p><b>Oraret e linjës:</b><br>
+        Periudha: Prill-Tetor : <br>
+            Nga ora 5.00 deri në orën 6.00, çdo 30 minuta <br>
+            Nga ora 6.00 deri në orën 6.30 çdo 20 minuta <br>
+            Nga ora 6.30 deri në orën 20.00 çdo 10 minuta<br>
+            Nga ora 20.00 deri në orën 23.00 çdo 15 minuta<br>
+            Nga ora 22.00 deri në orën 23.00 çdo 20 minuta<br>
+            Nga ora 23.00 deri në orën 24.00 çdo 30 minuta <br>
+        </p>
+
+        <p>Periudha: Nëntor - Mars : <br>
+            Nga ora 5.30 deri në orën 6.00 çdo 30 minuta<br>
+            Nga ora 6.00 deri në orën 6.30 çdo 20 minuta <br>
+            Nga ora 6.30 deri në orën 19.00 çdo 10 minuta<br>
+            Nga ora 19.00 deri në orën 21.00 çdo 15 minuta <br>
+            Nga ora 21.00 deri në orën 22.00 çdo 20 minuta <br>
+            Nga ora 22.00 deri në orën 23.00 çdo 30 minuta <br>
+        </p>
+    </div>
+
+    </div>
+</div>
+</body>
+</html>

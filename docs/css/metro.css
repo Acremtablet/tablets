@@ -14886,3 +14886,7 @@ video::-webkit-media-controls-enclosure {
 .rotateY-360 {
   transform: rotateY(-360deg);
 }
+.bg-transparent{
+ background-color: #eeeeee78 !important;
+}
+
