@@ -4,6 +4,7 @@
     "start_url": "./docs/templates/start-screen1.html",
     "scope" : "./",
     "background_color": "#702C91",
+    "theme_color": "#702C91",
     "display": "standalone",
 
     "icons" : [
