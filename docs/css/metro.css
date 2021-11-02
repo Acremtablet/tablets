@@ -3,6 +3,8 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  overflow-y: hidden;
+
 }
 html,
 body,
@@ -14889,4 +14891,3 @@ video::-webkit-media-controls-enclosure {
 .bg-transparent{
  background-color: #eeeeee78 !important;
 }
-
